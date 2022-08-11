@@ -1,0 +1,21 @@
+{
+  "name": "lightweight-charts",
+  "version": "1.0.0",
+  "description": "[GitHub](https://github.com/tradingview/lightweight-charts)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "watch": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "tulind": "^0.8.20"
+  }
+}
